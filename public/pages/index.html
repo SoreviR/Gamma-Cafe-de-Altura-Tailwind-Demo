@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../../src/styles.css" />
+  </head>
+  <body>
+    <!-- ------------------------------------------------- NAVBAR SECTION --------------------------------------------- -->
+    <header
+      class="bg-Dark-grey-color flex justify-center items-center py-3 px-10 h-16"
+    >
+      <nav
+        class="text-white flex justify-between w-full items-center font-semibold"
+      >
+        <figure class="flex items-center gap-2">
+          <a href="index.html"
+            ><h4 class="text-2xl font-normal">cafedealtura.com</h4></a
+          >
+          <img
+            class="w-5 h-6"
+            src="../../public/images/ps_coffee-hot.png"
+            alt="logo icon"
+          />
+        </figure>
+
+        <ul
+          class="flex gap-4 [&>li]:px-2 [&>li]:py-2 [&>li]:rounded-xl [&>li>a]:text-sm"
+        >
+          <li class="hover:bg-[#f7f5f31a]">
+            <a class="" href="tienda.html"><button class="">Tienda</button></a>
+          </li>
+
+          <li class="hover:bg-[#f7f5f31a]">
+            <a href=""><button>Suscripción</button></a>
+          </li>
+
+          <li class="hover:bg-[#f7f5f31a]">
+            <a href=""><button>Para empresas</button></a>
+          </li>
+
+          <li class="hover:bg-[#f7f5f31a]">
+            <a href=""><button>Sobre nosotros</button></a>
+          </li>
+
+          <li class="hover:bg-[#f7f5f31a]">
+            <a href=""><button>Contacto</button></a>
+          </li>
+        </ul>
+
+        <div class="flex gap-6">
+          <figure class="flex items-center gap-2">
+            <img
+              class="w-6 h-6"
+              src="../../public/images/Phone.svg"
+              alt="phone icon"
+            />
+            <p class="phone-number text-sm font-semibold">+34 919 49 05 18</p>
+          </figure>
+
+          <a class="bg-Grey-color rounded text-sm font-semibold" href=""
+            ><button class="py-3 px-6">Iniciar sesión</button></a
+          >
+        </div>
+
+        <figure class="flex gap-2">
+          <a href="cesta.html"
+            ><img src="../../public/images/cart-bag-icon.png" alt="cart icon"
+          /></a>
+        </figure>
+      </nav>
+    </header>
+    <!-- ------------------------------------------------- MAIN SECTION (HERO)--------------------------------------------- -->
+
+    <section class="flex justify-center px-12 py-10 w-full">
+      <main class="flex justify-center gap-6 h-[390px]">
+        <article class="flex flex-col justify-center gap-4 w-[588px]">
+          <h3 class="text-Green-color text-lg font-semibold">
+            De la planta a tu taza
+          </h3>
+          <h1 class="text-[40px] font-semibold">
+            El mejor café del mundo, ahora en tu casa.
+          </h1>
+          <p class="text-sm">
+            Trabajamos con agricultores de todo el mundo para seleccionar los
+            mejores granos de café y que puedas viajar desde la comodidad de tu
+            hogar.
+          </p>
+          <div class="">
+            <a href="">
+              <button
+                class="bg-Black-color text-White-color text-sm font-semibold py-3 px-6 rounded"
+              >
+                Descrubrir orígenes
+              </button>
+            </a>
+            <a href="tienda.html">
+              <button
+                class="bg-Green-color text-White-color text-sm font-semibold py-3 px-6 rounded"
+              >
+                Comprar café
+              </button>
+            </a>
+          </div>
+        </article>
+        <figure>
+          <img
+            class="h-[390px]"
+            src="../images/Hero image.png"
+            alt="a hand taking coffe from a tree"
+          />
+        </figure>
+      </main>
+    </section>
+
+    <!-- ------------------------------------------------- CONDITIONS SECTION (CARDS)--------------------------------------------- -->
+
+    <section
+      class="flex justify-center py-12 px-[147px] bg-center bg-cover bg-no-repeat"
+      style="background-image: url(../images/condition-cards-background.jpg)"
+    >
+      <h2 class="text-2xl font-medium text-White-color">
+        Café con las mejores condiciones
+      </h2>
+      <div class="flex">
+        <article class="flex flex-col">
+          <figure class="">
+            <img
+              class="w-[52px] h-[52px] bg-Green-color p-3 rounded-[20px]"
+              src="../images/Clipboard check.svg"
+              alt=""
+            />
+          </figure>
+          <h3>Recibe tu pedido sin preocuparte</h3>
+          <p>
+            Tienes cosas más importantes en la cabeza, por eso con nuestra
+            suscripción de café, nunca te quedarás sin tu taza de la mañana.
+          </p>
+        </article>
+
+        <article class="">
+          <figure class="">
+            <img src="../images/Truck.svg" alt="" />
+          </figure>
+          <h3>Envío en 24/48h</h3>
+          <p>Pide tu café antes de las 12h y lo recibirás al día siguiente.</p>
+        </article>
+
+        <article class="">
+          <figure class="">
+            <img src="../images/Gift.svg" alt="" />
+          </figure>
+          <h3>Descuentos y beneficios</h3>
+          <p>
+            Cada dos meses, te regalamos una bolsa de un nuevo origen sorpresa,
+            para que lo descubras junto a nosotros.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------- NEW PEODUCTS SECTION (CARDS)--------------------------------------------- -->
+
+    <section class="display-flex new-products-section">
+      <h2>Novedades</h2>
+
+      <div class="display-flex products-container">
+        <!-- ------------- COFFE CARD 1 ------------------- -->
+        <div class="display-flex new-product-container">
+          <figure class="display-flex coffe-bag">
+            <img src="assets/images/bag1.svg" alt="" />
+          </figure>
+
+          <figcaption class="display-flex">
+            <h5>Costa Rica Tarrazú</h5>
+            <p>9,00 €</p>
+          </figcaption>
+          <a href=""><button>Añadir</button></a>
+        </div>
+        <!-- ------------- COFFE CARD 2 ------------------- -->
+        <div class="display-flex new-product-container">
+          <figure class="display-flex coffe-bag">
+            <img src="assets/images/bag2.svg" alt="" />
+          </figure>
+          <figcaption class="display-flex">
+            <h5>Colombia Los Naranjos</h5>
+            <p>9,00 €</p>
+          </figcaption>
+          <a href=""><button>Añadir</button></a>
+        </div>
+        <!-- ------------- COFFE CARD 3 ------------------- -->
+        <div class="display-flex new-product-container">
+          <figure class="display-flex coffe-bag">
+            <img src="assets/images/bag3.svg" alt="" />
+          </figure>
+          <figcaption class="display-flex">
+            <h5>Laos Amanecer</h5>
+            <p>9,00 €</p>
+          </figcaption>
+          <a href=""><button>Añadir</button></a>
+        </div>
+        <!-- ------------- COFFE CARD 4 ------------------- -->
+        <div class="display-flex new-product-container">
+          <figure class="display-flex coffe-bag">
+            <img src="assets/images/bag4.svg" alt="" />
+          </figure>
+          <figcaption class="display-flex">
+            <h5>Etiopía Yrgacheff</h5>
+            <p>9,00 €</p>
+          </figcaption>
+          <a href=""><button>Añadir</button></a>
+        </div>
+      </div>
+      <footer class="display-flex new-product-footer">
+        <a href="tienda.html" class="footer-link">Ver todos</a>
+        <img src="assets/icons/Arrow narrow right.svg" alt="" />
+      </footer>
+    </section>
+
+    <!-- ------------------------------------------------- FAQ SECTION --------------------------------------------- -->
+
+    <section class="display-flex faq-section">
+      <header>
+        <h2 class="white-h2">Preguntas frecuentes</h2>
+      </header>
+
+      <div class="display-flex faq-container">
+        <article class="display-flex">
+          <div class="display-flex question-title">
+            <h3>¿Cómo hago el pedido?</h3>
+            <button
+              class="arrow-button answer-button-1 faq-button-hover"
+              type="button"
+            ></button>
+          </div>
+
+          <div class="display-flex flex-column answers answer-1">
+            <img src="assets/images/Divider.jpg" alt="" />
+
+            <p class="faq-answers">
+              Selecciona el café que desees probar y completa el proceso de
+              compra. Si lo prefieres, te preguntaremos cada cuánto quieres que
+              te lo mandemos a casa y así nunca te quedarás sin café.
+            </p>
+          </div>
+        </article>
+
+        <article class="display-flex">
+          <div class="display-flex question-title">
+            <h3>¿Por qué los precios son tan bajos?</h3>
+            <button class="arrow-button answer-2"></button>
+          </div>
+
+          <div class="display-flex flex-column answers answer-2">
+            <img src="assets/images/Divider.jpg" alt="" />
+            <p class="faq-answers">
+              Viajamos constantemente para encontrar los mejores granos y a los
+              agricultores más exigentes. Si podemos ofrecerte estos precios es
+              porque tratamos directamente con los productores de café, sin
+              intermediarios. Así obtenemos el mejor precio para ti y la persona
+              que está detrás de los granos de café recibe el mayor beneficio
+              posible.
+            </p>
+          </div>
+        </article>
+
+        <article class="display-flex">
+          <div class="display-flex question-title">
+            <h3>¿Es posible enviar café a mi oficina?</h3>
+            <button class="arrow-button answer-3"></button>
+          </div>
+
+          <div class="display-flex flex-column answers answer-2">
+            <img src="assets/images/Divider.jpg" alt="" />
+            <p class="faq-answers">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+              autem corrupti. Rerum, aliquid, nobis aspernatur culpa quo dolores
+              molestias deserunt maxime sapiente tempora delectus distinctio
+              atque quam dolor, nostrum tenetur.
+            </p>
+          </div>
+        </article>
+      </div>
+
+      <footer class="display-flex">
+        <a class="footer-link" href="">Resolvemos tus dudas</a>
+        <img src="assets/icons/Arrow narrow right white.svg" alt="" />
+      </footer>
+      <!-- </div> -->
+    </section>
+
+    <!-- ------------------------------------------------- TASTE SECTION --------------------------------------------- -->
+
+    <section class="displa-flex taste-section">
+      <div class="display-flex taste-container">
+        <aside class="display-flex">
+          <h2>Pruébalo en nuestro coffee shop</h2>
+          <p>
+            Visita nuestra cafetería en el centro de la ciudad para probar los
+            granos de café antes de hacer tu pedido y llévate un descuento
+          </p>
+          <footer class="display-flex">
+            <a class="footer-link" href="">Como llegar</a>
+            <img src="assets/icons/Arrow narrow right.svg" alt="" />
+          </footer>
+        </aside>
+
+        <figure>
+          <img src="assets/images/Hero image taste.png" alt="" />
+        </figure>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------- SPLIT TWO TONES SECTION --------------------------------------------- -->
+
+    <section class="display-flex split-tones-section">
+      <div class="display-flex split-container">
+        <article class="display-flex flex-column">
+          <div class="display-flex flex-column title">
+            <h3>Entra en contacto con nosotros</h3>
+            <p>
+              Si tienes dudas, ponte en contacto con nosotros a través del
+              formulario y te responderemos lo antes posible.
+            </p>
+          </div>
+
+          <div class="display-flex flex-column information-container">
+            <p>
+              TAmbién puedes ponerte en contacto con nostros en nuestra
+              dirección o a través del teléfono de la tienda.
+            </p>
+
+            <div class="display-flex flex-column address">
+              <p>742 Evergreen Terrace</p>
+              <p>Springfield, OR 12345</p>
+            </div>
+
+            <div class="display-flex phone-number">
+              <img src="assets/icons/Phone-grey.svg" alt="" />
+              <p>+1 (555) 123-4567</p>
+            </div>
+
+            <div class="display-flex support-mail">
+              <img src="assets/icons/Mail-icon.svg" alt="" />
+              <p>support@example.com</p>
+            </div>
+
+            <p>
+              ¿Buscas un trabajo?
+              <a class="footer-link" href="">Ver nuestras ofertas.</a>
+            </p>
+          </div>
+        </article>
+
+        <aside class="display-flex form-container">
+          <form class="display-flex flex-column" action="">
+            <div class="display-flex flex-column input-gap">
+              <label for="">Nombre completo</label>
+              <input class="form-inputs" type="text" />
+            </div>
+
+            <div class="display-flex flex-column input-gap">
+              <label for="">Email</label>
+              <input class="form-inputs" type="text" />
+            </div>
+
+            <div class="display-flex flex-column input-gap">
+              <label for="">Teléfono</label>
+
+              <div
+                class="display-flex form-inputs number-focus phone-information"
+              >
+                <select class="phone-cod-selection" id="country" name="country">
+                  <option>ES</option>
+                  <option selected>US</option>
+                </select>
+
+                <input
+                  class="number-input number-focus"
+                  type="tel"
+                  placeholder="+1 (555) 987-6543"
+                />
+              </div>
+            </div>
+
+            <div class="display-flex flex-column">
+              <label for=""> </label>
+              <textarea
+                class="form-inputs"
+                name=""
+                id=""
+                cols="60"
+                rows="7"
+                placeholder="¿En qué podemos ayudarte?"
+              ></textarea>
+            </div>
+
+            <div class="display-flex privacy-info">
+              <input class="form-checkbox" type="checkbox" />
+              <p>
+                Acepto la <a href="">Política de Privacidad</a> y los
+                <a href="">Términos y condiciones.</a>
+              </p>
+            </div>
+            <div class="form-button">
+              <button>Enviar</button>
+            </div>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------- FOOTER SECTION --------------------------------------------- -->
+
+    <section class="display-flex flex-column page-footer">
+      <article class="display-flex flex-column footer-info-container">
+        <figure class="navbar-logo display-flex">
+          <a href="index.html"><h4 class="logo">cafedealtura.com</h4></a>
+          <img src="assets/icons/ps_coffee-hot.png" alt="logo icon" />
+        </figure>
+
+        <div class="display-flex footer-info">
+          <div class="display-flex flex-column footer-support">
+            <h3>Te ayudamos en</h3>
+            <a href="">
+              <button>
+                <figure class="display-flex">
+                  <img src="assets/icons/Phone.svg" alt="phone icon" />
+                  <p class="phone-number">+34 919 49 05 18</p>
+                </figure>
+              </button>
+            </a>
+
+            <a href="">
+              <button>
+                <figure class="display-flex">
+                  <img src="assets/icons/Mail-white.svg" alt="mail icon" />
+                  <p class="">hola@cafedealtura.com</p>
+                </figure>
+              </button>
+            </a>
+          </div>
+
+          <div class="display-flex footer-column column-1">
+            <ul class="display-flex flex-column">
+              <li>
+                <a href="tienda.html">Tienda</a>
+              </li>
+
+              <li>
+                <a href="">Suscripción</a>
+              </li>
+
+              <li>
+                <a href="">Para empresas</a>
+              </li>
+
+              <li>
+                <a href="">Sobre nosotros</a>
+              </li>
+
+              <li>
+                <a href="">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="display-flex footer-column column-2">
+            <ul class="display-flex flex-column">
+              <li>
+                <a href="">Política de privacidad</a>
+              </li>
+
+              <li>
+                <a href="">Política de cookies</a>
+              </li>
+
+              <li>
+                <a href="">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+      <footer class="flex justify-center bg-Dark-grey-color py-3">
+        <p class="text-sm text-white font-semibold">
+          Todos los derechos reservados - Café de Altura SL - 2022
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
